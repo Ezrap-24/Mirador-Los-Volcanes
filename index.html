@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programa Patrimonial Minero | Fundo Mirador Los Volcanes — Puerto Octay</title>
+  <meta name="description" content="Inversión inmobiliaria de alto estándar en Puerto Octay, Región de los Lagos. 50 lotes exclusivos para el Sindicato Nº1 Chuquicamata, con garantía hipotecaria, derechos de agua y plusvalía proyectada del 15% anual.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Programa Patrimonial Minero | Fundo Mirador Los Volcanes">
+  <meta property="og:description" content="El legado de la minería, asegurado en la tierra. Inversión inmobiliaria de alto estándar en el corazón de Los Volcanes, Puerto Octay.">
+  <meta property="og:image" content="assets/images/hero-volcanes.jpg">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:site_name" content="Programa Patrimonial Minero">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛰️</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Failsafe: el contenido se ve por defecto; la animacion solo se activa si el JS corre.
+       Si por cualquier motivo el script principal no se ejecuta, todo se revela igual. -->
+  <script>
+    document.documentElement.classList.add('js');
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        if (!window.__revealInit) {
+          var els = document.querySelectorAll('.reveal');
+          for (var i = 0; i < els.length; i++) { els[i].classList.add('is-visible'); }
+        }
+      }, 1000);
+    });
+  </script>
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="header__logo">Programa Patrimonial Minero</a>
+
+      <!-- Links escritorio -->
+      <div class="nav__desktop">
+        <a href="#ubicacion" class="nav__link">Ubicación</a>
+        <a href="#respaldo" class="nav__link">Seguridad y Respaldo</a>
+        <a href="#beneficios" class="nav__link">Beneficios</a>
+        <a href="#galeria" class="nav__link">Galería</a>
+        <a href="#faq" class="nav__link">Preguntas Frecuentes</a>
+        <a href="#formulario" class="btn btn--primary btn--sm">Solicitar Información</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Drawer lateral — directo en body, fuera del header -->
+  <nav class="nav" id="nav" aria-label="Navegación principal">
+    <div class="nav__drawer-header">
+      <span class="nav__drawer-title">Menú de Navegación</span>
+      <button class="nav__drawer-close" id="navClose" aria-label="Cerrar menú">✕</button>
+    </div>
+    <a href="#ubicacion" class="nav__link">Ubicación</a>
+    <a href="#respaldo" class="nav__link">Seguridad y Respaldo</a>
+    <a href="#beneficios" class="nav__link">Beneficios</a>
+    <a href="#galeria" class="nav__link">Galería</a>
+    <a href="#faq" class="nav__link">Preguntas Frecuentes</a>
+    <a href="#formulario" class="btn btn--primary nav__drawer-cta">Solicitar Información</a>
+  </nav>
+  <div class="nav__backdrop" id="navBackdrop"></div>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/images/hero-volcanes.jpg" alt="" class="hero__img" loading="eager">
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="container hero__content">
+        <span class="hero__badge reveal">EXCLUSIVO PARA SOCIOS SINDICATO CHUQUICAMATA</span>
+        <h1 class="hero__title reveal">El legado de la minería,<br>asegurado en la tierra.</h1>
+        <p class="hero__subtitle reveal">Acceda a uno de los 50 cupos exclusivos preferenciales y resguarde su capital en Fundo Mirador Los Volcanes, un proyecto premium consolidado en Puerto Octay, Región de Los Lagos.</p>
+        <!-- Tour Virtual 360° -->
+        <div class="hero__tour-card reveal" role="region" aria-label="Tour virtual 360° del Fundo Mirador Los Volcanes">
+          <a class="tour__badge" href="https://www.lanube360.com/mirador-volcanes/" target="_blank" rel="noopener noreferrer" aria-label="Abrir tour virtual 360° en nueva pestaña">
+            <span class="tour__badge-dot"></span>
+            Tour Virtual 360°
+          </a>
+          <iframe
+            src="https://www.lanube360.com/mirador-volcanes/"
+            title="Tour virtual 360° — Fundo Mirador Los Volcanes, Puerto Octay"
+            loading="lazy"
+            allowfullscreen
+            allow="fullscreen; gyroscope; accelerometer"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="hero__tour-actions reveal">
+          <a href="#formulario" class="btn btn--primary">INVERTIR EN SU FUTURO</a>
+          <a href="#masterplan" class="btn btn--ghost">VER EL MASTERPLAN</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXCLUSIVIDAD / STATS ===================== -->
+    <section class="stats" aria-label="Cifras del programa">
+      <div class="container stats__grid">
+        <article class="stat reveal">
+          <span class="stat__label">Cupos Disponibles</span>
+          <span class="stat__value stat__value--copper">50</span>
+          <p class="stat__desc">Exclusivo para la primera etapa.</p>
+        </article>
+        <article class="stat reveal">
+          <span class="stat__label">Superficie Promedio</span>
+          <span class="stat__value">5.000m<sup>2</sup></span>
+          <p class="stat__desc">Lotes urbanizados y listos.</p>
+        </article>
+        <article class="stat reveal">
+          <span class="stat__label">Plusvalía Proyectada</span>
+          <span class="stat__value">30%</span>
+          <p class="stat__desc">Crecimiento anual estimado.</p>
+        </article>
+        <article class="stat reveal">
+          <span class="stat__label">Respaldo</span>
+          <span class="stat__value stat__value--icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>100%</span>
+          <p class="stat__desc">Garantía hipotecaria.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== GALERÍA ===================== -->
+    <section class="gallery" id="galeria">
+      <div class="container">
+        <span class="eyebrow reveal">Masterplan &amp; Entorno</span>
+        <h2 class="section-title reveal">Una mirada al Fundo Mirador Los Volcanes.</h2>
+
+        <div class="gallery__grid" id="galleryGrid">
+          <button class="gallery__item reveal" type="button" data-full="assets/images/gallery-1.webp" data-caption="Vista aérea del Fundo Mirador Los Volcanes con los volcanes Osorno, Puntiagudo y Calbuco al fondo — Región de los Lagos">
+            <img src="assets/images/gallery-1.webp" alt="Vista aérea del fundo con los tres volcanes al fondo" loading="lazy">
+            <span class="gallery__zoom" aria-hidden="true">+</span>
+          </button>
+          <button class="gallery__item reveal" type="button" data-full="assets/images/gallery-2.webp" data-caption="Volcán Osorno visto desde la pradera del fundo — paisaje característico de la Sección San Ramón, Puerto Octay">
+            <img src="assets/images/gallery-2.webp" alt="Volcán Osorno desde la pradera del fundo" loading="lazy">
+            <span class="gallery__zoom" aria-hidden="true">+</span>
+          </button>
+          <button class="gallery__item reveal" type="button" data-full="assets/images/gallery-3.webp" data-caption="Campo florido con vista al Volcán Osorno — entorno natural de los lotes del Fundo Mirador Los Volcanes">
+            <img src="assets/images/gallery-3.webp" alt="Campo de flores silvestres con el Volcán Osorno al fondo" loading="lazy">
+            <span class="gallery__zoom" aria-hidden="true">+</span>
+          </button>
+          <button class="gallery__item reveal" type="button" data-full="assets/images/gallery-4.webp" data-caption="Luz de atardecer sobre el campo verde del fundo — la zona ofrece un entorno natural único en la Región de los Lagos">
+            <img src="assets/images/gallery-4.webp" alt="Atardecer sobre el campo verde del fundo" loading="lazy">
+            <span class="gallery__zoom" aria-hidden="true">+</span>
+          </button>
+          <button class="gallery__item reveal" type="button" data-full="assets/images/gallery-5.webp" data-caption="Terreno productivo del fundo con el Volcán Osorno de fondo — lotes de 5.000 m² ya subdivididos con rol único">
+            <img src="assets/images/gallery-5.webp" alt="Terreno productivo del fundo con el volcán al fondo" loading="lazy">
+            <span class="gallery__zoom" aria-hidden="true">+</span>
+          </button>
+          <button class="gallery__item reveal" type="button" data-full="assets/images/gallery-6.webp" data-caption="Interior del fundo — sendero entre árboles nativos y campo florido, ideal para construir o arrendar como cabaña">
+            <img src="assets/images/gallery-6.webp" alt="Sendero entre árboles nativos y campo florido del fundo" loading="lazy">
+            <span class="gallery__zoom" aria-hidden="true">+</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Visor de imágenes ampliado">
+      <button class="lightbox__close" id="lightboxClose" aria-label="Cerrar visor">✕</button>
+      <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Imagen anterior">‹</button>
+      <figure class="lightbox__figure">
+        <img src="" alt="" id="lightboxImg">
+        <figcaption id="lightboxCaption"></figcaption>
+      </figure>
+      <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Siguiente imagen">›</button>
+    </div>
+
+    <!-- ===================== UBICACIÓN ===================== -->
+    <section class="location" id="ubicacion">
+      <div class="container">
+
+        <!-- Encabezado centrado -->
+        <div class="location__head">
+          <span class="eyebrow reveal">Ubicación estratégica</span>
+          <h2 class="section-title reveal">Entre lagos y volcanes, a un paso de todo.</h2>
+          <p class="location__lead reveal">El Fundo Mirador Los Volcanes se emplaza en Sección San Ramón, Puerto Octay — Región de los Lagos, con vistas directas a los volcanes Osorno, Puntiagudo y Calbuco. Una zona turística de alta plusvalía, validada por la presencia de cadenas comerciales como Unimarc.</p>
+        </div>
+
+        <!-- Grid principal: infografía | columna derecha -->
+        <div class="location__grid">
+
+          <!-- Infografía (colapsable en móvil) -->
+          <div class="location__infografia reveal">
+            <button class="location__infografia-toggle" id="mapaToggle" aria-expanded="false" aria-controls="mapaContent">
+              <span class="location__infografia-toggle-txt">📍 Ver mapa de conectividad</span>
+              <span class="location__infografia-toggle-icon" aria-hidden="true">＋</span>
+            </button>
+            <div class="location__infografia-content" id="mapaContent">
+              <img src="assets/images/infografia-ubicacion.webp"
+                   alt="Infografía de ubicación estratégica — Fundo Mirador Los Volcanes, Puerto Octay"
+                   loading="lazy">
+            </div>
+          </div>
+
+          <!-- Columna derecha: tarjetas de distancia -->
+          <div class="location__right">
+
+            <!-- Tarjetas de distancia -->
+            <ul class="distance-list">
+              <li class="distance-card reveal">
+                <span class="distance-card__icon" aria-hidden="true">✈️</span>
+                <div>
+                  <strong>Aeropuerto de Osorno</strong>
+                  <span>50 km — acceso expedito para visitas e inversionistas.</span>
+                </div>
+                <span class="distance-card__value">50 km</span>
+              </li>
+              <li class="distance-card reveal">
+                <span class="distance-card__icon" aria-hidden="true">🏔️</span>
+                <div>
+                  <strong>Vista a tres volcanes</strong>
+                  <span>Osorno, Puntiagudo y Calbuco a la vista desde el lote.</span>
+                </div>
+                <span class="distance-card__value">3</span>
+              </li>
+              <li class="distance-card reveal">
+                <span class="distance-card__icon" aria-hidden="true">🛒</span>
+                <div>
+                  <strong>Comercio establecido</strong>
+                  <span>Presencia de Unimarc y servicios en Puerto Octay.</span>
+                </div>
+                <span class="distance-card__value">cerca</span>
+              </li>
+              <li class="distance-card distance-card--airbnb reveal" id="airbnbCard" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Ver calculadora de ingresos Airbnb">
+                <span class="distance-card__icon" aria-hidden="true">🏡</span>
+                <div>
+                  <strong>Potencial Airbnb</strong>
+                  <span>Zona turística con alta demanda de arriendo de temporada.</span>
+                </div>
+                <span class="distance-card__value distance-card__value--airbnb">Calcular →</span>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== REFUGIO / INTRO ===================== -->
+    <section class="intro" id="masterplan">
+      <div class="container">
+        <div class="intro__head">
+          <h2 class="intro__title reveal">Un refugio para tu futuro.</h2>
+          <p class="intro__subtitle reveal">Diseñado específicamente para quienes entienden el valor de la tierra.</p>
+          <p class="intro__cta-line reveal">Cotiza con tu casa Tiny — elige el modelo que se adapta a tu proyecto de vida.</p>
+        </div>
+
+        <div class="casas__grid">
+
+          <!-- Casa 25 m² -->
+          <article class="casa-card reveal">
+            <div class="casa-card__media">
+              <img src="assets/images/casa-25m2.jpg" alt="Tiny house 25m² con invernadero — Fundo Mirador Los Volcanes" loading="lazy">
+              <span class="casa-card__tag">Tiny House</span>
+            </div>
+            <div class="casa-card__body">
+              <div class="casa-card__header">
+                <h3 class="casa-card__title">Tipo 25 m²</h3>
+                <span class="casa-card__badge">+ Invernadero</span>
+              </div>
+              <ul class="casa-card__rooms">
+                <li>Dormitorio</li>
+                <li>Baño</li>
+                <li>Cocina</li>
+                <li>Invernadero</li>
+              </ul>
+              <a href="#formulario" class="btn btn--primary btn--sm">Cotizar este modelo</a>
+            </div>
+          </article>
+
+          <!-- Casa 65 m² -->
+          <article class="casa-card reveal">
+            <div class="casa-card__media">
+              <img src="assets/images/casa-65m2.jpg" alt="Casa 65m² con invernadero — Fundo Mirador Los Volcanes" loading="lazy">
+              <span class="casa-card__tag">Familiar</span>
+            </div>
+            <div class="casa-card__body">
+              <div class="casa-card__header">
+                <h3 class="casa-card__title">Tipo 65 m²</h3>
+                <span class="casa-card__badge">+ Invernadero</span>
+              </div>
+              <ul class="casa-card__rooms">
+                <li>Dormitorio Principal</li>
+                <li>Dormitorio</li>
+                <li>Baño</li>
+                <li>Living · Cocina · Comedor</li>
+                <li>Invernadero</li>
+              </ul>
+              <a href="#formulario" class="btn btn--primary btn--sm">Cotizar este modelo</a>
+            </div>
+          </article>
+
+          <!-- Casa 80 m² -->
+          <article class="casa-card reveal">
+            <div class="casa-card__media">
+              <img src="assets/images/casa-80m2.jpg" alt="Casa 80m² con invernadero — Fundo Mirador Los Volcanes" loading="lazy">
+              <span class="casa-card__tag">Premium</span>
+            </div>
+            <div class="casa-card__body">
+              <div class="casa-card__header">
+                <h3 class="casa-card__title">Tipo 80 m²</h3>
+                <span class="casa-card__badge">+ Invernadero</span>
+              </div>
+              <ul class="casa-card__rooms">
+                <li>Suite + Baño en Suite</li>
+                <li>Dormitorio · Baño</li>
+                <li>Living · Comedor · Cocina</li>
+                <li>Invernadero</li>
+              </ul>
+              <a href="#formulario" class="btn btn--primary btn--sm">Cotizar este modelo</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PRECIOS / ETAPAS ===================== -->
+    <section class="pricing" id="precios">
+      <div class="container">
+        <div class="pricing__head">
+          <span class="eyebrow reveal">Patrimonio Inteligente</span>
+          <h2 class="section-title reveal">Oportunidad Exclusiva de Inversión</h2>
+          <p class="pricing__lead reveal">Fundo Mirador Los Volcanes es un macroproyecto consolidado de <strong>377 parcelas</strong> en la cuenca del Lago Llanquihue. Aproveche las condiciones preferenciales del convenio en sus dos etapas:</p>
+          <div class="pricing__divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="pricing__grid">
+
+          <!-- Cupos totales -->
+          <div class="price-card reveal">
+            <span class="price-card__value price-card__value--big">50</span>
+            <h3 class="price-card__label">Cupos Totales</h3>
+            <p class="price-card__desc">Promoción de convenio exclusiva para socios del Sindicato de Chuquicamata.</p>
+          </div>
+
+          <!-- Primeros 25 — destacado -->
+          <div class="price-card price-card--highlight reveal">
+            <span class="price-card__promo">¡Lanzamiento Especial!</span>
+            <span class="price-card__value">$24.99M</span>
+            <h3 class="price-card__label">Primeros 25 Inversores</h3>
+            <p class="price-card__desc">Valor preferencial de lanzamiento de <strong>$24.990.000 CLP</strong> por terreno.</p>
+          </div>
+
+          <!-- Siguientes 25 -->
+          <div class="price-card reveal">
+            <span class="price-card__value">$29.0M</span>
+            <h3 class="price-card__label">Siguientes 25 Cupos</h3>
+            <p class="price-card__desc">Valor preferencial de convenio de <strong>$29.000.000 CLP</strong> para los cupos del 26 al 50.</p>
+          </div>
+
+          <!-- Valor comercial -->
+          <div class="price-card reveal">
+            <span class="price-card__value price-card__value--muted">$48.0M</span>
+            <h3 class="price-card__label">Valor Comercial</h3>
+            <p class="price-card__desc">Valor comercial de lista del proyecto, asegurando plusvalía inmediata.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESPALDO ===================== -->
+    <section class="backing" id="respaldo">
+      <div class="container">
+        <span class="eyebrow eyebrow--light reveal">Seguridad jurídica y financiera</span>
+        <h2 class="section-title section-title--light reveal">Su inversión, completamente respaldada.</h2>
+        <p class="backing__lead reveal">Trabajamos bajo una estructura societaria transparente, con documentación legal verificable y garantías reales sobre cada etapa del proceso.</p>
+
+        <div class="backing__grid">
+          <article class="backing-card reveal">
+            <span class="backing-card__index">01</span>
+            <h3>Rol Único y Factibilidades</h3>
+            <p>377 hectáreas ya subdivididas en parcelas con rol único propio, factibilidad de agua potable y electricidad debidamente certificadas.</p>
+          </article>
+          <article class="backing-card reveal">
+            <span class="backing-card__index">02</span>
+            <h3>Borrador de Contrato Disponible</h3>
+            <p>Antes de comprometer su capital, usted puede solicitar y revisar el borrador del contrato junto a su asesor legal.</p>
+          </article>
+          <article class="backing-card reveal">
+            <span class="backing-card__index">03</span>
+            <h3>Acompañamiento Ejecutivo</h3>
+            <p>Un equipo de soporte ejecutivo dedicado guía cada paso, desde la evaluación inicial hasta la inscripción final del lote a su nombre.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="faq" id="faq">
+      <div class="container faq__inner">
+        <div class="faq__head">
+          <span class="eyebrow reveal">Preguntas frecuentes</span>
+          <h2 class="section-title reveal">Resolvemos sus dudas antes de invertir.</h2>
+          <p class="reveal">Si necesita más información, nuestro equipo de soporte ejecutivo está disponible para una conversación personalizada.</p>
+          <a href="#formulario" class="btn btn--secondary reveal">Agendar una reunión</a>
+        </div>
+
+        <div class="accordion" id="accordion">
+          <div class="accordion__item reveal">
+            <h3 class="accordion__header">
+              <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-1" id="faq-btn-1">
+                ¿Cómo se garantiza mi inversión?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-1" role="region" aria-labelledby="faq-btn-1">
+              <p>Cada operación cuenta con garantía hipotecaria inscrita sobre el terreno, además de un borrador de contrato de participación que puede ser revisado por su abogado de confianza antes de formalizar cualquier acuerdo.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item reveal">
+            <h3 class="accordion__header">
+              <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-2" id="faq-btn-2">
+                ¿Cuál es la rentabilidad estimada?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-2" role="region" aria-labelledby="faq-btn-2">
+              <div class="accordion__panel-inner">
+                <p>El estudio de mercado proyecta una rentabilidad anual estimada del 30%, derivada exclusivamente de la venta minorista del terreno ya subdividido, capturando el margen entre la compra mayorista y la venta al detalle.</p>
+
+                <!-- Cuadro comparativo rentabilidad -->
+                <div class="roi-compare" aria-label="Comparativo de rentabilidad anual estimada">
+                  <p class="roi-compare__note"><em>Rentabilidad anual estimada por instrumento de inversión</em></p>
+                  <div class="roi-compare__grid">
+                    <div class="roi-card">
+                      <span class="roi-card__name">Depósito<br>a plazo</span>
+                      <span class="roi-card__rate">7,5%</span>
+                    </div>
+                    <div class="roi-card">
+                      <span class="roi-card__name">Dólares<br>USD</span>
+                      <span class="roi-card__rate">5%</span>
+                    </div>
+                    <div class="roi-card">
+                      <span class="roi-card__name">APV<br>(fondo C)</span>
+                      <span class="roi-card__rate">10,5%</span>
+                    </div>
+                    <div class="roi-card">
+                      <span class="roi-card__name">IPSA</span>
+                      <span class="roi-card__rate">14%</span>
+                    </div>
+                    <div class="roi-card roi-card--highlight">
+                      <span class="roi-card__name">Inversión<br>Inmobiliaria</span>
+                      <span class="roi-card__rate">30%</span>
+                      <span class="roi-card__badge">Este proyecto</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion__item reveal">
+            <h3 class="accordion__header">
+              <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-3" id="faq-btn-3">
+                ¿Qué incluye cada lote?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-3" role="region" aria-labelledby="faq-btn-3">
+              <p>Cada lote cuenta con rol único propio, derechos consuntivos de agua inscritos, factibilidad de agua potable y electricidad, además de caminos internos estabilizados y un reglamento de copropiedad que resguarda la plusvalía del entorno.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item reveal">
+            <h3 class="accordion__header">
+              <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-4" id="faq-btn-4">
+                ¿Esta oferta es realmente exclusiva para el sindicato?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-4" role="region" aria-labelledby="faq-btn-4">
+              <p>Sí. La primera etapa contempla un stock limitado de 50 cupos, ofrecidos de manera prioritaria a integrantes del Sindicato Nº1 Chuquicamata y su círculo cercano, antes de abrir la oferta al mercado general.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item reveal">
+            <h3 class="accordion__header">
+              <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-5" id="faq-btn-5">
+                ¿Cómo reservo mi lugar?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-5" role="region" aria-labelledby="faq-btn-5">
+              <p>Complete el formulario de esta página o escríbanos directamente por WhatsApp. Un ejecutivo se pondrá en contacto para agendar una reunión, enviarle el dossier completo y guiarlo en el proceso de reserva y firma.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FORMULARIO ===================== -->
+    <section class="form-section" id="formulario">
+      <div class="container form-section__inner">
+        <div class="form-section__copy reveal">
+          <span class="eyebrow">Dé el primer paso</span>
+          <h2 class="section-title">Solicite información personalizada.</h2>
+          <p>Complete sus datos y un ejecutivo del Programa Patrimonial Minero se contactará con usted para resolver sus dudas, enviarle el dossier completo y coordinar una visita guiada al Fundo Mirador Los Volcanes.</p>
+
+          <ul class="form-section__perks">
+            <li>Dossier digital con masterplan y evaluación de inversión.</li>
+            <li>Borrador del contrato de participación para su revisión legal.</li>
+            <li>Visita guiada coordinada según su disponibilidad.</li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="contactForm" novalidate>
+          <h3 class="form__title">Solicitar Información</h3>
+
+          <div class="form__row">
+            <label class="form__field">
+              <span>Nombre completo</span>
+              <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+              <small class="form__error" id="error-nombre"></small>
+            </label>
+          </div>
+
+          <div class="form__row form__row--split">
+            <label class="form__field">
+              <span>Teléfono</span>
+              <input type="tel" name="telefono" id="telefono" autocomplete="tel" placeholder="+56 9 ____ ____" required>
+              <small class="form__error" id="error-telefono"></small>
+            </label>
+            <label class="form__field">
+              <span>Correo electrónico</span>
+              <input type="email" name="correo" id="correo" autocomplete="email" required>
+              <small class="form__error" id="error-correo"></small>
+            </label>
+          </div>
+
+          <div class="form__row form__row--split">
+            <label class="form__field">
+              <span>Área de trabajo</span>
+              <select name="area" id="area" required>
+                <option value="" disabled selected>Seleccione una opción</option>
+                <option value="operaciones-mina">Operaciones de mina</option>
+                <option value="mantenimiento">Mantenimiento y planta</option>
+                <option value="administracion">Administración y finanzas</option>
+                <option value="ingenieria">Ingeniería y proyectos</option>
+                <option value="contratista">Contratista / proveedor</option>
+                <option value="otro">Otro</option>
+              </select>
+              <small class="form__error" id="error-area"></small>
+            </label>
+            <label class="form__field">
+              <span>Tipo de interés</span>
+              <select name="interes" id="interes" required>
+                <option value="" disabled selected>Seleccione una opción</option>
+                <option value="inversion-personal">Inversión personal</option>
+                <option value="inversion-grupal">Inversión grupal / cooperativa</option>
+                <option value="visita">Agendar visita guiada</option>
+                <option value="dossier">Solo recibir el dossier</option>
+              </select>
+              <small class="form__error" id="error-interes"></small>
+            </label>
+          </div>
+
+          <label class="form__check">
+            <input type="checkbox" name="privacidad" id="privacidad" required>
+            <span>Acepto ser contactado y la <a href="politica-privacidad.html" target="_blank" rel="noopener">política de privacidad</a> del Programa Patrimonial Minero.</span>
+          </label>
+
+          <button type="submit" class="btn btn--primary btn--block">Enviar solicitud</button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="form__note">* Sus datos serán utilizados únicamente para fines de contacto comercial relacionados con este programa. Integración con CRM en preparación.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p class="footer__logo">Programa Patrimonial Minero</p>
+        <p>Protegiendo el legado de la minería chilena a través de inversiones inmobiliarias de alto estándar en la Patagonia.</p>
+      </div>
+
+      <nav class="footer__col" aria-label="Inversiones">
+        <h4>Inversiones</h4>
+        <a href="#masterplan">Masterplan</a>
+        <a href="#beneficios">Modelos de Financiamiento</a>
+        <a href="#beneficios">Rentabilidad Histórica</a>
+      </nav>
+
+      <nav class="footer__col" aria-label="Legal">
+        <h4>Legal</h4>
+        <a href="politica-privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>
+        <a href="terminos-condiciones.html" target="_blank" rel="noopener">Términos y Condiciones del Sitio</a>
+        <a href="#">Plano Maestro</a>
+      </nav>
+
+      <nav class="footer__col" aria-label="Contacto">
+        <h4>Contacto</h4>
+        <a href="#formulario">Soporte Ejecutivo</a>
+        <a href="#formulario">Agendar Reunión</a>
+        <a href="mailto:contacto@miradorlosvolcanes.cl">contacto@miradorlosvolcanes.cl</a>
+        <a href="tel:+56987332569">+56 9 8733 2569</a>
+      </nav>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 Programa Patrimonial Minero · Fundo Mirador Los Volcanes, Sección San Ramón, Puerto Octay, Región de los Lagos. Todos los derechos reservados.</p>
+      <div class="footer__legal-links">
+        <a class="footer__legal-btn" href="politica-privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>
+        <span aria-hidden="true">·</span>
+        <a class="footer__legal-btn" href="terminos-condiciones.html" target="_blank" rel="noopener">Términos y Condiciones</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/56987332569?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20Programa%20Patrimonial%20Minero"
+     class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.84.5 3.55 1.36 5.03L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm0 18.07h-.01a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.27-4.31c0-4.52 3.68-8.2 8.21-8.2 2.19 0 4.25.86 5.8 2.41a8.13 8.13 0 0 1 2.4 5.8c0 4.53-3.68 8.21-8.21 8.21Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.65.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.17-.48-.29Z"/>
+    </svg>
+  </a>
+
+  <!-- Modal Calculadora Airbnb -->
+  <div class="modal modal--airbnb" id="airbnbModal" role="dialog" aria-modal="true" aria-labelledby="airbnbTitle">
+    <div class="modal__panel modal__panel--airbnb">
+      <button class="modal__close" id="airbnbClose" aria-label="Cerrar">✕</button>
+
+      <!-- Header -->
+      <div class="airbnb-modal__header">
+        <svg class="airbnb-modal__logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12.003 2c-1.5 0-5.5 4.5-7 7.5-1 2.1-.8 4.3.5 5.9 1 1.2 2.4 1.9 4 1.9.9 0 1.8-.3 2.5-.8.7.5 1.6.8 2.5.8 1.6 0 3-.7 4-1.9 1.3-1.6 1.5-3.8.5-5.9-1.5-3-5.5-7.5-7-7.5zm0 2.5c.8.9 2.2 2.7 3.4 4.6-1 .4-2.2.6-3.4.6s-2.4-.2-3.4-.6c1.2-1.9 2.6-3.7 3.4-4.6zm-4.5 8.8c.1-.7.4-1.4.8-2 1.1.5 2.4.8 3.7.8s2.6-.3 3.7-.8c.4.6.7 1.3.8 2 .2 1.1-.1 2.2-.8 3-.7.8-1.6 1.2-2.7 1.2-.6 0-1.2-.2-1.7-.6l-.3-.2-.3.2c-.5.4-1.1.6-1.7.6-1.1 0-2-.4-2.7-1.2-.7-.8-1-1.9-.8-3z"/>
+        </svg>
+        <div>
+          <h2 class="airbnb-modal__title" id="airbnbTitle">Calculadora de Ingresos Airbnb</h2>
+          <p class="airbnb-modal__subtitle">Estimación para Puerto Octay · Región de los Lagos</p>
+        </div>
+      </div>
+
+      <!-- Sliders -->
+      <div class="airbnb-modal__body">
+
+        <div class="airbnb-slider">
+          <div class="airbnb-slider__head">
+            <label class="airbnb-slider__label" for="sliderPrecio">Precio por noche</label>
+            <span class="airbnb-slider__val" id="labelPrecio">$85.000</span>
+          </div>
+          <input class="airbnb-slider__input" type="range" id="sliderPrecio"
+                 min="40000" max="200000" step="5000" value="85000"
+                 aria-label="Precio por noche en pesos chilenos">
+          <div class="airbnb-slider__range-labels">
+            <span>$40.000</span><span>$200.000</span>
+          </div>
+        </div>
+
+        <div class="airbnb-slider">
+          <div class="airbnb-slider__head">
+            <label class="airbnb-slider__label" for="sliderNoches">Noches arrendadas por mes</label>
+            <span class="airbnb-slider__val" id="labelNoches">18 noches</span>
+          </div>
+          <input class="airbnb-slider__input" type="range" id="sliderNoches"
+                 min="1" max="30" step="1" value="18"
+                 aria-label="Noches arrendadas por mes">
+          <div class="airbnb-slider__range-labels">
+            <span>1 noche</span><span>30 noches</span>
+          </div>
+        </div>
+
+        <!-- Resultado -->
+        <div class="airbnb-result">
+          <div class="airbnb-result__main">
+            <span class="airbnb-result__label">Ingreso mensual estimado</span>
+            <span class="airbnb-result__amount" id="resultMensual">$1.275.000</span>
+            <span class="airbnb-result__note">Después de comisión Airbnb (3%)</span>
+          </div>
+          <div class="airbnb-result__row">
+            <div class="airbnb-result__item">
+              <span class="airbnb-result__item-val" id="resultBruto">$1.530.000</span>
+              <span class="airbnb-result__item-lbl">Bruto mensual</span>
+            </div>
+            <div class="airbnb-result__divider" aria-hidden="true"></div>
+            <div class="airbnb-result__item">
+              <span class="airbnb-result__item-val" id="resultAnual">$15.300.000</span>
+              <span class="airbnb-result__item-lbl">Estimado anual neto</span>
+            </div>
+            <div class="airbnb-result__divider" aria-hidden="true"></div>
+            <div class="airbnb-result__item">
+              <span class="airbnb-result__item-val" id="resultOcupacion">60%</span>
+              <span class="airbnb-result__item-lbl">Ocupación mensual</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="airbnb-modal__disclaimer">* Estimación referencial basada en precios promedio de Airbnb en la Región de los Lagos (2025). Los ingresos reales dependen de la temporada, tipo de cabaña y gestión del anfitrión.</p>
+
+        <a href="#formulario" class="btn btn--primary btn--block" id="airbnbCta">Quiero saber más → Solicitar información</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal dossier -->
+  <div class="modal" id="dossierModal" role="dialog" aria-modal="true" aria-labelledby="dossierTitle">
+    <div class="modal__panel">
+      <button class="modal__close" id="dossierClose" aria-label="Cerrar">✕</button>
+      <h3 id="dossierTitle">Reglamento y dossier en preparación</h3>
+      <p>El reglamento de copropiedad y el dossier completo del proyecto están siendo finalizados por nuestro equipo legal. Déjenos sus datos en el formulario y se lo enviaremos directamente a su correo apenas esté disponible.</p>
+      <a href="#formulario" class="btn btn--primary" id="dossierCta">Ir al formulario</a>
+    </div>
+  </div>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">↑</button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>

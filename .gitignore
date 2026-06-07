@@ -1,0 +1,23 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Archivos de trabajo / inputs (no necesarios para deploy)
+Doc e inputs/
+Landing.rar
+*.pdf
+DESIGN.md
+
+# Capturas y previews de trabajo interno
+nav_drawer_preview.jpg
+preview_desktop.jpg
+preview_mobile.jpg
+preview_nav.jpg
+screen.png
+nojs.png
+Ubicacion Estrategica.png
